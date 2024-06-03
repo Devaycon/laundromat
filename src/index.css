@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*, *::before, *::after{
+  transition: all .35s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+html,body{
+  overflow-x: hidden;
+}
